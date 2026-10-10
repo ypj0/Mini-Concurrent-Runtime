@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ypj/project/thread_lifecycle
+CMAKE_SOURCE_DIR = /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ypj/project/thread_lifecycle/build
+CMAKE_BINARY_DIR = /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ypj/project/thread_lifecycle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/thread_lifecycle/build/CMakeFiles /home/ypj/project/thread_lifecycle/build/test//CMakeFiles/progress.marks
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/thread_lifecycle/build/CMakeFiles 0
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/CMakeFiles /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test//CMakeFiles/progress.marks
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ypj/project/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/test_milestone1.dir/rule:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone1.dir/rule
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone1.dir/rule
 .PHONY : test/CMakeFiles/test_milestone1.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ test_milestone1: test/CMakeFiles/test_milestone1.dir/rule
 
 # fast build rule for target.
 test_milestone1/fast:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/build
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/build
 .PHONY : test_milestone1/fast
 
 # Convenience name for target.
 test/CMakeFiles/test_milestone2.dir/rule:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone2.dir/rule
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone2.dir/rule
 .PHONY : test/CMakeFiles/test_milestone2.dir/rule
 
 # Convenience name for target.
@@ -151,12 +151,12 @@ test_milestone2: test/CMakeFiles/test_milestone2.dir/rule
 
 # fast build rule for target.
 test_milestone2/fast:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/build
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/build
 .PHONY : test_milestone2/fast
 
 # Convenience name for target.
 test/CMakeFiles/test_milestone3.dir/rule:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone3.dir/rule
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone3.dir/rule
 .PHONY : test/CMakeFiles/test_milestone3.dir/rule
 
 # Convenience name for target.
@@ -165,12 +165,12 @@ test_milestone3: test/CMakeFiles/test_milestone3.dir/rule
 
 # fast build rule for target.
 test_milestone3/fast:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/build
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/build
 .PHONY : test_milestone3/fast
 
 # Convenience name for target.
 test/CMakeFiles/test_milestone4.dir/rule:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone4.dir/rule
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_milestone4.dir/rule
 .PHONY : test/CMakeFiles/test_milestone4.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ test_milestone4: test/CMakeFiles/test_milestone4.dir/rule
 
 # fast build rule for target.
 test_milestone4/fast:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/build
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/build
 .PHONY : test_milestone4/fast
 
 test_milestone1.o: test_milestone1.cpp.o
@@ -187,7 +187,7 @@ test_milestone1.o: test_milestone1.cpp.o
 
 # target to build an object file
 test_milestone1.cpp.o:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/test_milestone1.cpp.o
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/test_milestone1.cpp.o
 .PHONY : test_milestone1.cpp.o
 
 test_milestone1.i: test_milestone1.cpp.i
@@ -195,7 +195,7 @@ test_milestone1.i: test_milestone1.cpp.i
 
 # target to preprocess a source file
 test_milestone1.cpp.i:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/test_milestone1.cpp.i
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/test_milestone1.cpp.i
 .PHONY : test_milestone1.cpp.i
 
 test_milestone1.s: test_milestone1.cpp.s
@@ -203,7 +203,7 @@ test_milestone1.s: test_milestone1.cpp.s
 
 # target to generate assembly for a file
 test_milestone1.cpp.s:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/test_milestone1.cpp.s
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone1.dir/build.make test/CMakeFiles/test_milestone1.dir/test_milestone1.cpp.s
 .PHONY : test_milestone1.cpp.s
 
 test_milestone2.o: test_milestone2.cpp.o
@@ -211,7 +211,7 @@ test_milestone2.o: test_milestone2.cpp.o
 
 # target to build an object file
 test_milestone2.cpp.o:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o
 .PHONY : test_milestone2.cpp.o
 
 test_milestone2.i: test_milestone2.cpp.i
@@ -219,7 +219,7 @@ test_milestone2.i: test_milestone2.cpp.i
 
 # target to preprocess a source file
 test_milestone2.cpp.i:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.i
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.i
 .PHONY : test_milestone2.cpp.i
 
 test_milestone2.s: test_milestone2.cpp.s
@@ -227,7 +227,7 @@ test_milestone2.s: test_milestone2.cpp.s
 
 # target to generate assembly for a file
 test_milestone2.cpp.s:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.s
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone2.dir/build.make test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.s
 .PHONY : test_milestone2.cpp.s
 
 test_milestone3.o: test_milestone3.cpp.o
@@ -235,7 +235,7 @@ test_milestone3.o: test_milestone3.cpp.o
 
 # target to build an object file
 test_milestone3.cpp.o:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/test_milestone3.cpp.o
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/test_milestone3.cpp.o
 .PHONY : test_milestone3.cpp.o
 
 test_milestone3.i: test_milestone3.cpp.i
@@ -243,7 +243,7 @@ test_milestone3.i: test_milestone3.cpp.i
 
 # target to preprocess a source file
 test_milestone3.cpp.i:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/test_milestone3.cpp.i
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/test_milestone3.cpp.i
 .PHONY : test_milestone3.cpp.i
 
 test_milestone3.s: test_milestone3.cpp.s
@@ -251,7 +251,7 @@ test_milestone3.s: test_milestone3.cpp.s
 
 # target to generate assembly for a file
 test_milestone3.cpp.s:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/test_milestone3.cpp.s
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone3.dir/build.make test/CMakeFiles/test_milestone3.dir/test_milestone3.cpp.s
 .PHONY : test_milestone3.cpp.s
 
 test_milestone4.o: test_milestone4.cpp.o
@@ -259,7 +259,7 @@ test_milestone4.o: test_milestone4.cpp.o
 
 # target to build an object file
 test_milestone4.cpp.o:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/test_milestone4.cpp.o
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/test_milestone4.cpp.o
 .PHONY : test_milestone4.cpp.o
 
 test_milestone4.i: test_milestone4.cpp.i
@@ -267,7 +267,7 @@ test_milestone4.i: test_milestone4.cpp.i
 
 # target to preprocess a source file
 test_milestone4.cpp.i:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/test_milestone4.cpp.i
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/test_milestone4.cpp.i
 .PHONY : test_milestone4.cpp.i
 
 test_milestone4.s: test_milestone4.cpp.s
@@ -275,7 +275,7 @@ test_milestone4.s: test_milestone4.cpp.s
 
 # target to generate assembly for a file
 test_milestone4.cpp.s:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/test_milestone4.cpp.s
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_milestone4.dir/build.make test/CMakeFiles/test_milestone4.dir/test_milestone4.cpp.s
 .PHONY : test_milestone4.cpp.s
 
 # Help Target
@@ -314,6 +314,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ypj/project/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

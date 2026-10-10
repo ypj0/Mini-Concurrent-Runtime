@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/ypj/project/thread_lifecycle/build/_deps/catch2-src"
-  "/home/ypj/project/thread_lifecycle/build/_deps/catch2-build"
-  "/home/ypj/project/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix"
-  "/home/ypj/project/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/tmp"
-  "/home/ypj/project/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp"
-  "/home/ypj/project/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src"
-  "/home/ypj/project/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-build"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/tmp"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/ypj/project/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/ypj/project/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

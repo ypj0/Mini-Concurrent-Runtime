@@ -1,10 +1,10 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o: \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp \
  /usr/include/stdc-predef.h \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_polyfills.hpp \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_polyfills.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
  /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

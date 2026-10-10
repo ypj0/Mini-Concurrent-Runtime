@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ypj/project/thread_lifecycle/test/test_milestone2.cpp" "test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o" "gcc" "test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o.d"
+  "/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/test/test_milestone2.cpp" "test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o" "gcc" "test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

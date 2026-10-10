@@ -1,7 +1,7 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o: \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp \
  /usr/include/stdc-predef.h \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_errno_guard.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_errno_guard.hpp \
  /usr/include/c++/13/cerrno \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

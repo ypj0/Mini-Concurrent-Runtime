@@ -1,10 +1,10 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o: \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp \
  /usr/include/stdc-predef.h \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_debugger.hpp \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_errno_guard.hpp \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stdstreams.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_debugger.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_errno_guard.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stdstreams.hpp \
  /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

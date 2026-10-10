@@ -1,8 +1,8 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o: \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp \
  /usr/include/stdc-predef.h \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_insensitive_comparisons.hpp \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_insensitive_comparisons.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
  /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -120,7 +120,7 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensit
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/cassert /usr/include/assert.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_string_manip.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_string_manip.hpp \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

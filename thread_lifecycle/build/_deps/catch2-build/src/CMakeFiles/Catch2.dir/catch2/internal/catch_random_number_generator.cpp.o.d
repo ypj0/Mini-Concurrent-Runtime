@@ -1,7 +1,7 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o: \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp \
  /usr/include/stdc-predef.h \
- /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_random_number_generator.hpp \
+ /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_random_number_generator.hpp \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

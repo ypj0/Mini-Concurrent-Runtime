@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ypj/project/thread_lifecycle
+CMAKE_SOURCE_DIR = /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ypj/project/thread_lifecycle/build
+CMAKE_BINARY_DIR = /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/test_milestone2.dir/depend.make
@@ -70,18 +70,18 @@ include test/CMakeFiles/test_milestone2.dir/progress.make
 include test/CMakeFiles/test_milestone2.dir/flags.make
 
 test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o: test/CMakeFiles/test_milestone2.dir/flags.make
-test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o: /home/ypj/project/thread_lifecycle/test/test_milestone2.cpp
+test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o: /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/test/test_milestone2.cpp
 test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o: test/CMakeFiles/test_milestone2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ypj/project/thread_lifecycle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o"
-	cd /home/ypj/project/thread_lifecycle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o -MF CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o.d -o CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o -c /home/ypj/project/thread_lifecycle/test/test_milestone2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o"
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o -MF CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o.d -o CMakeFiles/test_milestone2.dir/test_milestone2.cpp.o -c /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/test/test_milestone2.cpp
 
 test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_milestone2.dir/test_milestone2.cpp.i"
-	cd /home/ypj/project/thread_lifecycle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ypj/project/thread_lifecycle/test/test_milestone2.cpp > CMakeFiles/test_milestone2.dir/test_milestone2.cpp.i
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/test/test_milestone2.cpp > CMakeFiles/test_milestone2.dir/test_milestone2.cpp.i
 
 test/CMakeFiles/test_milestone2.dir/test_milestone2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_milestone2.dir/test_milestone2.cpp.s"
-	cd /home/ypj/project/thread_lifecycle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ypj/project/thread_lifecycle/test/test_milestone2.cpp -o CMakeFiles/test_milestone2.dir/test_milestone2.cpp.s
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/test/test_milestone2.cpp -o CMakeFiles/test_milestone2.dir/test_milestone2.cpp.s
 
 # Object files for target test_milestone2
 test_milestone2_OBJECTS = \
@@ -95,18 +95,18 @@ test/bin/test_milestone2: test/CMakeFiles/test_milestone2.dir/build.make
 test/bin/test_milestone2: _deps/catch2-build/src/libCatch2Maind.a
 test/bin/test_milestone2: _deps/catch2-build/src/libCatch2d.a
 test/bin/test_milestone2: test/CMakeFiles/test_milestone2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ypj/project/thread_lifecycle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/test_milestone2"
-	cd /home/ypj/project/thread_lifecycle/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_milestone2.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/test_milestone2"
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_milestone2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/test_milestone2.dir/build: test/bin/test_milestone2
 .PHONY : test/CMakeFiles/test_milestone2.dir/build
 
 test/CMakeFiles/test_milestone2.dir/clean:
-	cd /home/ypj/project/thread_lifecycle/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test_milestone2.dir/cmake_clean.cmake
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test_milestone2.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/test_milestone2.dir/clean
 
 test/CMakeFiles/test_milestone2.dir/depend:
-	cd /home/ypj/project/thread_lifecycle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ypj/project/thread_lifecycle /home/ypj/project/thread_lifecycle/test /home/ypj/project/thread_lifecycle/build /home/ypj/project/thread_lifecycle/build/test /home/ypj/project/thread_lifecycle/build/test/CMakeFiles/test_milestone2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/test /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/test/CMakeFiles/test_milestone2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/CMakeFiles/test_milestone2.dir/depend
 

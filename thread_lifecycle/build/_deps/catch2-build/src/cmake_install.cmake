@@ -1,4 +1,4 @@
-# Install script for directory: /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src
+# Install script for directory: /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

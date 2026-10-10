@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ypj/project/thread_lifecycle
+CMAKE_SOURCE_DIR = /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ypj/project/thread_lifecycle/build
+CMAKE_BINARY_DIR = /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ypj/project/thread_lifecycle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/thread_lifecycle/build/CMakeFiles /home/ypj/project/thread_lifecycle/build/_deps/catch2-build//CMakeFiles/progress.marks
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/thread_lifecycle/build/CMakeFiles 0
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/CMakeFiles /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/_deps/catch2-build//CMakeFiles/progress.marks
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/clean
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,17 +113,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/preinstall
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ypj/project/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/preinstall
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ypj/project/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -146,6 +146,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ypj/project/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ypj/project/Mini-Concurrent-Runtime/thread_lifecycle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
