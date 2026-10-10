@@ -1,0 +1,14 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--header-insertion=iwyu",
+        "--all-scopes-completion",
+        "--function-arg-placeholders",
+        "--pch-storage=disk",
+        "--j=4"
+    ],
+    "clangd.onConfigChanged": "restart",
+    "cmake.configureOnOpen": false
+}

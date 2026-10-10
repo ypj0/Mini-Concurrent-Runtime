@@ -1,0 +1,2 @@
+#!/bin/sh
+exec setarch "$(uname -m)" -R "$(dirname "$0")/bin/$(basename "$0")" "$@"
