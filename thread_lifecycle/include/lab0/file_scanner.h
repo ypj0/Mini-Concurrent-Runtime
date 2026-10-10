@@ -9,6 +9,7 @@
 #include <vector>
 
 #include "worker_stats.h"
+#include "joining_thread.h"
 
 namespace lab0 {
 
@@ -40,7 +41,6 @@ class FileScanner {
     WorkerStats scan() {
       fileCount_ = 0;
       allfileBytes_ = 0;
-      threads.clear();
 
       if(all_files.size() == 0) {
         for(const auto& entry : std::filesystem::recursive_directory_iterator(root_path_)) {
@@ -50,28 +50,30 @@ class FileScanner {
         }
       }
 
-      unsigned int chunk = all_files.size() / num_workers_;
-
-      for(std::size_t i = 0; i < num_workers_; ++i) {
-        std::size_t start = i * chunk;
-        std::size_t end = (i == num_workers_ - 1) ? all_files.size() : start + chunk;
-        threads.emplace_back([this, start, end] {
-          worker(start, end);
-        });
-      }
-
-      for(auto& t : threads) {
-        t.join();
-      }
+      std::size_t chunk = all_files.size() / num_workers_;
       
-      return WorkerStats{fileCount_, allfileBytes_};
+      {
+        std::vector<lab0::JoiningThread> threads; //threads_不能成为成员，否则Jthread要在对象析构后才join
+        threads.reserve(num_workers_);
+
+        for(std::size_t i = 0; i < num_workers_; ++i) {
+          std::size_t start = i * chunk;
+          std::size_t end = (i == num_workers_ - 1) ? all_files.size() : start + chunk;
+          threads.emplace_back([this, start, end] {
+            worker(start, end);
+          });
+        }
+      }
+
+      WorkerStats stats { fileCount_, allfileBytes_};
+      return stats;
 
     }
 
     void worker(std::size_t start, std::size_t end) {
-      for(unsigned int i = start; i < end; ++i) {
+      for(std::size_t i = start; i < end; ++i) {
         fileCount_.fetch_add(1, std::memory_order_relaxed);
-        allfileBytes_.fetch_add(all_files[i].file_size());
+        allfileBytes_.fetch_add(all_files[i].file_size(), std::memory_order_relaxed);
       }
     }
 
@@ -79,7 +81,6 @@ class FileScanner {
     std::filesystem::path root_path_;
     std::size_t num_workers_;
     std::vector<std::filesystem::directory_entry> all_files;
-    std::vector<std::thread> threads;
     std::atomic<std::size_t> fileCount_;
     std::atomic<std::uintmax_t> allfileBytes_;
 

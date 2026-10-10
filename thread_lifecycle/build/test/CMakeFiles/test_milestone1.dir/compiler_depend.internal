@@ -45,6 +45,7 @@ test/CMakeFiles/test_milestone1.dir/test_milestone1.cpp.o
  /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_unique_ptr.hpp
  /home/ypj/project/thread_lifecycle/build/_deps/catch2-src/src/catch2/internal/catch_void_type.hpp
  /home/ypj/project/thread_lifecycle/include/lab0/file_scanner.h
+ /home/ypj/project/thread_lifecycle/include/lab0/joining_thread.h
  /home/ypj/project/thread_lifecycle/include/lab0/worker_stats.h
  /home/ypj/project/thread_lifecycle/test/test_helpers.h
  /usr/include/alloca.h
