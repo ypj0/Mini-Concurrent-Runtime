@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=thread CMakeFiles/test_milestone6.dir/test_milestone6.cpp.o -o test_milestone6  ../_deps/catch2-build/src/libCatch2Maind.a ../_deps/catch2-build/src/libCatch2d.a 
